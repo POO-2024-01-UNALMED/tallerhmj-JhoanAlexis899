@@ -16,7 +16,7 @@ public class Portero extends Futbolista{
 
     public boolean jugarConLasManos(){return true;}
 
-    public int compareTo(Portero p){
+    public int compareTo(Futbolista p){
         return Math.abs(golesRecibidos - p.golesRecibidos);
     }
 }
